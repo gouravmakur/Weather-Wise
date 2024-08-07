@@ -25,7 +25,7 @@ async function getWeather(cityName){
         backgroundImage = `/images/mornonbg.jpg`; // morning image
     } else if (currentHour >= 12 && currentHour < 18) {
         backgroundImage = '/images/afternoonbg.jpg'; // afternoon image
-    } else if (currentHour >= 18 && currentHour < 21) {
+    } else if (currentHour >= 18 && currentHour < 19) {
         backgroundImage = '/images/eveningbg.jpg'; // evening image
     } else {
         backgroundImage = '/images/nightbg.jpg'; // night image
